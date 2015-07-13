@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -eu
+
+exec_path="$(dirname "$0")/../level3.py"
+
+if [ -f "$exec_path" ]; then
+  set -x
+  exec python $exec_path "$@"
+else
+  echo "$0: server not found"
+  exit 1
+fi

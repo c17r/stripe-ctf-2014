@@ -1,0 +1,145 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.24/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'search' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 warn Building the local index for the first time, please be patient
+5 verbose url raw /-/all
+6 verbose url resolving [ 'https://registry.npmjs.org/', './-/all' ]
+7 verbose url resolved https://registry.npmjs.org/-/all
+8 info trying registry request attempt 1 at 20:40:09
+9 http GET https://registry.npmjs.org/-/all
+10 http 503 https://registry.npmjs.org/-/all
+11 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+11 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+11 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+11 verbose bad json <html>
+11 verbose bad json   <head>
+11 verbose bad json     <title>503 backend read error</title>
+11 verbose bad json   </head>
+11 verbose bad json   <body>
+11 verbose bad json     <h1>Error 503 backend read error</h1>
+11 verbose bad json     <p>backend read error</p>
+11 verbose bad json     <h3>Guru Meditation:</h3>
+11 verbose bad json     <p>XID: 255567588</p>
+11 verbose bad json     <hr>
+11 verbose bad json     <p>Varnish cache server</p>
+11 verbose bad json   </body>
+11 verbose bad json </html>
+12 error registry error parsing json
+13 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+13 info retry
+13 info retry <?xml version="1.0" encoding="utf-8"?>
+13 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+13 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+13 info retry <html>
+13 info retry   <head>
+13 info retry     <title>503 backend read error</title>
+13 info retry   </head>
+13 info retry   <body>
+13 info retry     <h1>Error 503 backend read error</h1>
+13 info retry     <p>backend read error</p>
+13 info retry     <h3>Guru Meditation:</h3>
+13 info retry     <p>XID: 255567588</p>
+13 info retry     <hr>
+13 info retry     <p>Varnish cache server</p>
+13 info retry   </body>
+13 info retry </html>
+14 info trying registry request attempt 2 at 20:40:35
+15 http GET https://registry.npmjs.org/-/all
+16 http 503 https://registry.npmjs.org/-/all
+17 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+17 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+17 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+17 verbose bad json <html>
+17 verbose bad json   <head>
+17 verbose bad json     <title>503 backend read error</title>
+17 verbose bad json   </head>
+17 verbose bad json   <body>
+17 verbose bad json     <h1>Error 503 backend read error</h1>
+17 verbose bad json     <p>backend read error</p>
+17 verbose bad json     <h3>Guru Meditation:</h3>
+17 verbose bad json     <p>XID: 2300240738</p>
+17 verbose bad json     <hr>
+17 verbose bad json     <p>Varnish cache server</p>
+17 verbose bad json   </body>
+17 verbose bad json </html>
+18 error registry error parsing json
+19 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+19 info retry
+19 info retry <?xml version="1.0" encoding="utf-8"?>
+19 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+19 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+19 info retry <html>
+19 info retry   <head>
+19 info retry     <title>503 backend read error</title>
+19 info retry   </head>
+19 info retry   <body>
+19 info retry     <h1>Error 503 backend read error</h1>
+19 info retry     <p>backend read error</p>
+19 info retry     <h3>Guru Meditation:</h3>
+19 info retry     <p>XID: 2300240738</p>
+19 info retry     <hr>
+19 info retry     <p>Varnish cache server</p>
+19 info retry   </body>
+19 info retry </html>
+20 info trying registry request attempt 3 at 20:41:50
+21 http GET https://registry.npmjs.org/-/all
+22 http 503 https://registry.npmjs.org/-/all
+23 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+23 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+23 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+23 verbose bad json <html>
+23 verbose bad json   <head>
+23 verbose bad json     <title>503 backend read error</title>
+23 verbose bad json   </head>
+23 verbose bad json   <body>
+23 verbose bad json     <h1>Error 503 backend read error</h1>
+23 verbose bad json     <p>backend read error</p>
+23 verbose bad json     <h3>Guru Meditation:</h3>
+23 verbose bad json     <p>XID: 1822206316</p>
+23 verbose bad json     <hr>
+23 verbose bad json     <p>Varnish cache server</p>
+23 verbose bad json   </body>
+23 verbose bad json </html>
+24 error registry error parsing json
+25 error SyntaxError: Unexpected token <
+25 error
+25 error <?xml version="1.0" encoding="utf-8"?>
+25 error <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+25 error  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+25 error <html>
+25 error   <head>
+25 error     <title>503 backend read error</title>
+25 error   </head>
+25 error   <body>
+25 error     <h1>Error 503 backend read error</h1>
+25 error     <p>backend read error</p>
+25 error     <h3>Guru Meditation:</h3>
+25 error     <p>XID: 1822206316</p>
+25 error     <hr>
+25 error     <p>Varnish cache server</p>
+25 error   </body>
+25 error </html>
+25 error
+25 error     at Object.parse (native)
+25 error     at RegClient.<anonymous> (/usr/local/Cellar/node/0.10.24/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:241:23)
+25 error     at Request.self.callback (/usr/local/Cellar/node/0.10.24/lib/node_modules/npm/node_modules/request/request.js:123:22)
+25 error     at Request.EventEmitter.emit (events.js:98:17)
+25 error     at Request.<anonymous> (/usr/local/Cellar/node/0.10.24/lib/node_modules/npm/node_modules/request/request.js:893:14)
+25 error     at Request.EventEmitter.emit (events.js:117:20)
+25 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/node/0.10.24/lib/node_modules/npm/node_modules/request/request.js:844:12)
+25 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+25 error     at _stream_readable.js:920:16
+25 error     at process._tickCallback (node.js:415:13)
+26 error If you need help, you may report this *entire* log,
+26 error including the npm and node versions, at:
+26 error     <http://github.com/isaacs/npm/issues>
+27 error System Darwin 13.0.0
+28 error command "/usr/local/Cellar/node/0.10.24/bin/node" "/usr/local/bin/npm" "search"
+29 error cwd /Users/christian/wc/personal/stripe-ctf/level3
+30 error node -v v0.10.24
+31 error npm -v 1.3.21
+32 error type unexpected_token
+33 verbose exit [ 1, true ]
